@@ -1,0 +1,26 @@
+**HTML**
+
+<!DOCTYPE HTML> - Declaration - first line of HTML
+<html> - Tag - tells browser uising HTML
+<head> - Tag - metadata about page, and CSS instructions about style for wohle page
+<title> - Tag - goes inside <head> as metadata
+<body> - Tag - all content you want to see goes in <body>
+<p> - Tag - paragraph
+
+Ensure;
+(1) Not missed any tags or in wrong order
+(2) No typos
+(3) Correct capitlisation
+(4) Included all symbols
+(5) Use straight quotes only - " "
+(6) Closed all tags using forward slash </...>
+(7) File saved as .html
+
+Line break - <br/>
+URL Image and Alternative Attribute (alt) - <img src="https://getcodingkids.com/team_photo.jpg" alt="The Team"/>
+Saved Image and Alternative Attribute (alt) - <img src="diamond.jpg" alt="The Monk Diamond"/>
+Division - <div/>
+
+Can nest tags in HTML
+
+**CSS**
