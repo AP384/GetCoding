@@ -33,8 +33,9 @@ Saved Image and Alternative Attribute (alt) - <img src="diamond.jpg" alt="The Mo
 <img src="diamond.jpg" alt="The Monk Diamond style=height: 150px;"/>
 
 Hyperlinks;
-
-
+<body>
+<a href="https://www.google.co.uk"> Click here</a>
+</body>
 
 Can nest tags in HTML
 
@@ -144,4 +145,12 @@ Combining CSS class with individual CSS Property
 
 **Javascript**
 
+Javascript makes web page interactive eg buttons, alerts. information storage
+Javascript is made up of statements, variables, operators, and functions
 Javascript at end of HTML / CSS
+
+If want to set up a password
+(1) set up password page
+(2) set up main page to be password protected
+(3) when do <a href....> each page points to the other
+(4) 
