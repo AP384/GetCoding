@@ -48,10 +48,18 @@ In paragraph - <p style="background-color: green;">
 In division - <div style="background-color=blue;">
 More than one CSS property - <p style="background-color: red; float: right; height: 50%; width: 200px;">       *Pixels (px) / Percentages (%) / Points (pt)
 
-CSS and the Head tag
+CSS, CSS classes and the Head tag
+Define class yourself
 
-
-
+<head>
+ <style>              Style tag
+  .text {             CSS class name - note (1)  . at start a
+     text-align: centre;
+     font-size: 18pt;
+     background-color: aqua;
+}
+ <style>
+</head>
 
 
 
