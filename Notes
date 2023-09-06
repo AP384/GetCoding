@@ -146,11 +146,38 @@ Combining CSS class with individual CSS Property
 **Javascript**
 
 Javascript makes web page interactive eg buttons, alerts. information storage
-Javascript is made up of statements, variables, operators, and functions
-Javascript at end of HTML / CSS
+Javascript is made up of statements (an instruction), variables, operators, and functions
+HTML parses first, then CSS and the Javascript
+
+To tell brower that you are changing from HTML to Javascript, need to use <script> tag (in either <head> or <body>
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Password</title>
+</head>
+<body>
+      <script>
+      </script>
+</body>
+</html>
+
 
 If want to set up a password
-(1) set up password page
-(2) set up main page to be password protected
-(3) when do <a href....> each page points to the other
+(1) set up password webpage
+(2) set up main webpage to be password protected
+(3) when do <a href....> on each webpage, each webpage should hyperlink to the other
 (4) 
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Password</title>
+</head>
+<body>
+      <script>
+        alert("We need a password urgently!");
+        alert("Use the password Ernest300");
+      </script>
+</body>
+</html>
