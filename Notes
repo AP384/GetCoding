@@ -148,8 +148,39 @@ Combining CSS class with individual CSS Property
 Javascript makes web page interactive eg buttons, alerts. information storage
 Javascript is made up of statements (an instruction), variables, operators, and functions
 HTML parses first, then CSS and the Javascript
+Javascript runs one statement after the other in the order its written
 
-To tell brower that you are changing from HTML to Javascript, need to use <script> tag (in either <head> or <body>
+STATEMENTS
+Statement usually starts with a keyword that tells you what action it will perform (eg alert - see below) 
+Javascript is case sensitive
+No spaces between words so use camelCase
+
+VARIABLES
+Way to store information
+Have to tell browser you are creating a varaible
+Variable  needs a keyword, a name and a value
+
+Variable Keyword is Var
+Variable name is dogName
+Value is Ernest
+
+var dogName="Ernest";
+
+OPERATORS
+Change the value of a varaible
+* Assignment - equals =        var teamMembers=3  (note when number dont need "")
+* Arithmetic - + -             var campRations=2+1
+* Comparison -
+Equal to ==
+Not Equal to
+Greater than
+Less Than
+Greater than or equal; to
+Less than equal to
+
+
+
+To tell browser that you are changing from HTML to Javascript, need to use <script> tag (in either <head> or <body>
 
 <!DOCTYPE html>
 <html>
@@ -157,8 +188,8 @@ To tell brower that you are changing from HTML to Javascript, need to use <scrip
       <title>Password</title>
 </head>
 <body>
-      <script>
-      </script>
+      <script>                      Javascript
+      </script>                     Javascript
 </body>
 </html>
 
@@ -176,8 +207,23 @@ If want to set up a password
 </head>
 <body>
       <script>
-        alert("We need a password urgently!");
-        alert("Use the password Ernest300");
+        alert("We need a password urgently!");              Javascript using 'alert' keyword which is a function
+        alert("Use the password Ernest300");                Javascript using 'alert' keyword which is a function
+      </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Variables</title>
+</head>
+<body>
+      <script>
+        var diamondCarats = 300 + 34;
+        alert(diamondCarats);
+        var namesBoy = "wilbur";
+        alert (namesBoy)
       </script>
 </body>
 </html>
